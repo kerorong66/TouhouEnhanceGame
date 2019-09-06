@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "879773552801",
+    "firebase_url": "https://touhouenhancegame.firebaseio.com",
+    "project_id": "touhouenhancegame",
+    "storage_bucket": "touhouenhancegame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879773552801:android:23ee2d2506242e2c",
+        "android_client_info": {
+          "package_name": "teamlazystance.kerorong.touhouenhancegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879773552801-3jhmpi58kuf8nr2va27fnsdtcked5ro4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPuAt8noL4tztqRw-3OQhBNdzAjANIjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Touhou Collect Game</string>
+    <string name="app_id">879773552801</string>
+
+    <string name="name_enhance">Enhance</string>
+    <string name="name_current_coin">G</string>
+    <string name="name_shop">Shop</string>
+    <string name="name_buy">Buy</string>
+    <string name="name_get_money">Get money</string>
+    <string name="name_sell">Sell</string>
+    <string name="name_card">Card</string>
+    <string name="name_done">Done</string>
+    <string name="name_confirm">Confirm</string>
+    <string name="name_plus">+</string>
+
+    <string name="text_money">Current Gold: </string>
+    <string name="text_no_card">No Card</string>
+    <string name="text_card_with_blank">&#160;Card</string>
+
+    <string name="shop_default_card">Default Card</string>
+
+    <string name="title_set_nickname">Set Nickname</string>
+    <string name="desc_set_nickname">Input your Nickname.</string>
+
+    <string name="desc_no_money">No Currency.</string>
+
+    <string name="desc_not_available">Not available.</string>
+
+    <string name="hint_chat">Input here to Chat</string>
+
+    <string name="title_error">Error</string>
+    <string name="desc_signin_error">There is an Some error while Login.</string>
+
+    <string name="sys_name">System</string>
+    <string name="sys_failed_enhance" formatted="false">%s was Failed enhance at %d.</string>
+
+    <string name="card_name_0">Hakurei Reimu</string>
+    <string name="card_desc_0">Main Character</string>
+    <string name="card_name_1">Kirisame Karisa</string>
+    <string name="card_desc_1">Main Character</string>
+</resources>

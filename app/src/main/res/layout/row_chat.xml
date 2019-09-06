@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/rectangle_round_dark"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <teamlazystance.kerorong.touhouenhancegame.Classes.StrokeTextView
+            android:id="@+id/txt_username"
+            style="@style/chatText.Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <teamlazystance.kerorong.touhouenhancegame.Classes.StrokeTextView
+            android:id="@+id/txt_message"
+            style="@style/chatText.Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">동방 컬렉션 게임</string>
+    <string name="app_id">879773552801</string>
+
+    <string name="name_enhance">강화</string>
+    <string name="name_current_coin">원</string>
+    <string name="name_shop">상점</string>
+    <string name="name_buy">구입</string>
+    <string name="name_get_money">돈벌기</string>
+    <string name="name_sell">판매</string>
+    <string name="name_card">카드</string>
+    <string name="name_done">완료</string>
+    <string name="name_confirm">결정</string>
+    <string name="name_plus">+</string>
+
+    <string name="text_money">자금:&#160;</string>
+    <string name="text_no_card">강화할 카드가 없습니다.</string>
+    <string name="text_card_with_blank">&#160;카드</string>
+
+    <string name="shop_default_card">기본 카드</string>
+
+    <string name="title_set_nickname">닉네임 설정</string>
+    <string name="desc_set_nickname">사용할 닉네임을 입력해 주세요.</string>
+
+    <string name="desc_no_money">잔액이 부족합니다.</string>
+
+    <string name="desc_not_available">아직 이용할 수 없습니다.</string>
+
+    <string name="hint_chat">여기를 입력하여 채팅&#8230;</string>
+
+    <string name="title_error">오류</string>
+    <string name="desc_signin_error">로그인 도중 오류가 발생했습니다.</string>
+
+    <string name="sys_name">시스템</string>
+    <string name="sys_failed_enhance" formatted="false">%s님이 %d강에서 강화에 실패했습니다!</string>
+
+    <string name="card_name_0">하쿠레이 레이무</string>
+    <string name="card_desc_0">주인공</string>
+    <string name="card_name_1">키리사메 마리사</string>
+    <string name="card_desc_1">주인공</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mainScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="chatText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="chatText.Username">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="chatText.Message">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

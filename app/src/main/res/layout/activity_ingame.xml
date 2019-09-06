@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txt_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorMainText"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/img_card"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/name_card"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:src="@drawable/rectangle_border" />
+
+    <TextView
+        android:id="@+id/txt_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/colorMainText"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_card"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorMainText"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/lo_enhance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_price"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_enhance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/name_enhance" />
+
+        <Button
+            android:id="@+id/btn_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_sell"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_luck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lo_enhance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorMainText"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:enabled="true"
+        android:text="@string/name_buy" />
+
+    <Button
+        android:id="@+id/btn_get_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_shop"
+        android:layout_alignParentEnd="true"
+        android:text="@string/name_get_money" />
+
+    <EditText
+        android:id="@+id/et_chat"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:hint="@string/hint_chat"
+        android:imeOptions="actionSend"
+        android:inputType="textShortMessage"
+        android:maxLines="1"
+        android:textColor="@color/colorMainText"
+        android:textSize="10sp" />
+
+    <ListView
+        android:id="@+id/lv_chat"
+        android:layout_width="260dp"
+        android:layout_height="160dp"
+        android:layout_above="@id/et_chat"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:stackFromBottom="true">
+    </ListView>
+
+    <FrameLayout
+        android:id="@+id/lo_achievement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
